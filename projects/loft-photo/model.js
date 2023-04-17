@@ -4,6 +4,7 @@ import photosDB from './photos.json';
 import friendsDB from './friends.json';
 
 export default {
+<<<<<<< HEAD
   getRandomElement(array) {
     if (!array.length) {
       return null;
@@ -20,4 +21,8 @@ export default {
 
     return { friend, url: photo.url };
   },
+=======
+  getRandomElement(array) {},
+  getNextPhoto() {},
+>>>>>>> 102c093 (loft photo)
 };
