@@ -9,7 +9,9 @@
  Пример:
    forEach([1, 2, 3], (el) => console.log(el)); // выведет каждый элемент массива
  */
-function forEach() {}
+function forEach(a) {
+  return a;
+}
 
 /*
  Задание 2:
